@@ -1,16 +1,80 @@
-# React + Vite
+# DIGITAL GAMERS
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Sobre o projeto
 
-Currently, two official plugins are available:
+A Digital Gamers é uma aplicação de e-commerce especializada na comercialização de peças para computadores, acessórios e jogos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O projeto tem como objetivo proporcionar uma experiência intuitiva para o público gamer, permitindo visualizar produtos, adicionar itens ao carrinho e simular a finalização de uma compra.
 
-## React Compiler
+## Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS3
+- Vite
+- Git
+- GitHub
+- npm
+- Vitest
 
-## Expanding the Oxlint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Página inicial da loja.
+- Catálogo de produtos.
+- Visualização de produtos.
+- Filtros por categoria.
+- Adição e remoção de itens do carrinho.
+- Cálculo do valor total.
+- Simulação de finalização da compra.
+
+## Requisitos para execução
+
+- Node.js em versão compatível com o Vite.
+- npm.
+- Visual Studio Code (recomendado).
+
+## Como executar o projeto
+
+1. Clone o repositório:
+
+   `git clone URL_DO_REPOSITORIO`
+
+2. Acesse a pasta:
+
+   `cd digital-gamers`
+
+3. Instale as dependências:
+
+   `npm install`
+
+4. Execute a aplicação:
+
+   `npm run dev`
+
+5. Acesse no navegador o endereço apresentado pelo terminal.
+
+## Testes
+
+Para executar os testes automatizados:
+
+`npm test`
+
+## Compilação
+
+Para verificar a compilação do projeto:
+
+`npm run build`
+
+## Estratégia Git
+
+Foi adotado o Trunk-Based Development simplificado, utilizando a branch main como versão principal e branches de curta duração para o desenvolvimento de novas funcionalidades.
+
+As alterações são submetidas por Pull Requests e revisadas antes da integração.
+
+## Dependências
+
+As dependências e os respectivos comandos de execução estão documentados nos arquivos package.json e package-lock.json.
+
+## Projeto acadêmico
+
+Digital Gamers – Projeto desenvolvido para aplicação prática de metodologias ágeis, Git, GitHub e práticas DevOps.
