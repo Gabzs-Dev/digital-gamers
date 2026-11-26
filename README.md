@@ -78,3 +78,41 @@ As dependências e os respectivos comandos de execução estão documentados nos
 ## Projeto acadêmico
 
 Digital Gamers – Projeto desenvolvido para aplicação prática de metodologias ágeis, Git, GitHub e práticas DevOps.
+
+
+## Execução com Docker
+
+O projeto Digital Gamers pode ser executado em um contêiner Docker,
+utilizando Nginx para disponibilizar os arquivos da aplicação.
+
+### Pré-requisitos
+- Docker Desktop instalado e em execução.
+
+### Construir a imagem
+```bash
+docker build -t digital-gamers:1.0.0 .
+```
+
+### Executar o contêiner
+```bash
+docker run -d --name digital-gamers -p 8080:80 digital-gamers:1.0.0
+```
+
+### Acessar a aplicação
+
+http://localhost:8080
+
+### Verificar os contêineres
+```bash
+docker ps
+```
+
+### Parar o contêiner
+```bash
+docker stop digital-gamers
+```
+
+### Remover o contêiner
+```bash
+docker rm digital-gamers
+```
